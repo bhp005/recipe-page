@@ -1,0 +1,168 @@
+.image {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    overflow: auto;
+}
+
+.container1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 90%;
+    max-width: 700px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: OutfitB;
+    src: url(assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: YoungF;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfits;
+    src: url(assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+
+h1 {
+    font-family: YoungF;
+    font-weight: 400;
+}
+
+.text {
+    font-family: outfit;
+    font-weight: 100;
+    color: hsl(30, 10%, 34%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+li {
+    color: hsl(30, 10%, 34%);
+    font-family: OutfitB;
+}
+
+.subrect {
+    background-color: hsla(332, 60%, 60%, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.headp {
+    color: hsl(332, 51%, 32%);
+    padding-left: 10px;
+    font-family: outfits;
+    font-weight: 600;
+}
+
+.subhead {
+    color: hsl(14, 45%, 36%);
+    font-family: YoungF;
+    font-weight: 200;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    margin: 20px auto;
+    font-family: outfits;
+}
+
+.coll {
+    color: hsl(14, 45%, 36%);
+}
+
+.table tr {
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 20px;
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 30px;
+    }
+
+    .container1 {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .headp {
+        font-size: 18px;
+    }
+
+    .subhead {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 20px;
+    }
+
+    .container1 {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .headp {
+        font-size: 16px;
+    }
+
+    .subhead {
+        font-size: 14px;
+    }
+}
